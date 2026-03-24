@@ -1,4 +1,4 @@
-hl {
+.hl {
  font-size: 30px;
  text-transform: uppercase;
 }
@@ -21,4 +21,25 @@ img {
 
 #primary-list {
     list-style: none;
+}
+
+.tabela {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+}
+
+.tabela div {
+    background-color: rgb(218, 218, 218);
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.formtv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
