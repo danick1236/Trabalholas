@@ -3,6 +3,10 @@
  text-transform: uppercase;
 }
 
+body {
+    background-color: rgb(206, 206, 206);
+}
+
 p::first-letter {
     text-transform: uppercase;
 }
@@ -42,4 +46,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    display: block;
+    margin-bottom: 10px;
 }
