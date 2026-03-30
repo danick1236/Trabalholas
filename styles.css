@@ -3,6 +3,10 @@
  text-transform: uppercase;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     background-color: rgb(206, 206, 206);
 }
@@ -56,4 +60,28 @@ label {
 input, select {
     display: block;
     margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 60%;
+    background-color: aliceblue;
+}
+
+.mainp {
+    display: block;
+    text-align: center;
+    justify-content: center;
 }
