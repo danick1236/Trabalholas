@@ -109,3 +109,12 @@ footer {
     text-align: center;
     align-content: center;
 }
+
+.teste {
+    opacity: 0%;
+    transition: 1s;
+}
+
+.teste:hover {
+    opacity: 100%;
+}
