@@ -80,6 +80,18 @@ footer {
     background-color: aliceblue;
 }
 
+.footerp {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 60%;
+    background-color: aliceblue;
+}
+
 .mainp {
     display: block;
     text-align: center;
