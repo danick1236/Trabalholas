@@ -66,6 +66,8 @@ header {
     display: flex;
     text-align: center;
     justify-content: center;
+    width: 100%;   
+    height: 10vh;
 }
 
 footer {
@@ -96,4 +98,14 @@ footer {
     display: block;
     text-align: center;
     justify-content: center;
+}
+
+.banner {
+    background-image:url('https://tse1.explicit.bing.net/th/id/OIP.rkXDxktbeKs2UFKVXzz6WwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    align-content: center;
 }
